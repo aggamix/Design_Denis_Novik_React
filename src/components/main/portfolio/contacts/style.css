@@ -1,0 +1,50 @@
+/* CONTACTS */
+
+.contacts-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    row-gap: 30px;
+
+    padding: 100px 0;
+}
+
+.contacts__btn {
+    background-color: var(--black);
+    color: var(--white1);
+
+    padding: 13px 30px;
+
+    border-radius: 50px;
+
+}
+
+.contacts__link {
+    text-decoration: none;
+    color: var(--white1);
+}
+
+.btn__p {
+    font-family: 'Gilroy-bold';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.contacts__p {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: var(--ligth-grey);
+}
+
+.contacts__items {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 60px;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 0 0 0;
+}

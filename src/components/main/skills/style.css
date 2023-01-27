@@ -1,0 +1,44 @@
+/* SKILLS */
+
+.skills-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 70px;
+
+    padding: 100px 0;
+}
+
+.skills__desc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 90px;
+    row-gap: 80px;
+}
+
+.skills__card {
+    text-align: center;
+}
+
+.skills__p {
+    margin: 20px 0 40px 0;
+
+    color: var(--ligth-grey);
+    font-family: 'Gilroy-bold';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.skills__stars {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 9px;
+}
+
+.star {
+    width: 25px;
+    height: 25px;
+}
